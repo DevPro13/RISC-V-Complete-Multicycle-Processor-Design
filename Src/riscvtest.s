@@ -1,8 +1,3 @@
-# riscvtest.s
-# Sarah.Harris@unlv.edu
-# David_Harris@hmc.edu
-# 27 Oct 2020
-#
 # Test the RISC-V processor.  
 #  add, sub, and, or, slt, addi, lw, sw, beq, jal
 # If successful, it should write the value 25 to address 100
@@ -29,5 +24,3 @@ around: slt  x4, x7, x2         # x4 = (3 < 5)  = 1       28        0023A233
 end:    add  x2, x2, x9         # x2 = (7 + 18)  = 25     48        00910133
         sw   x2, 0x20(x3)       # mem[100] = 25           4C        0221A023 
 done:   beq  x2, x2, done       # infinite loop           50        00210063
-		
-		
