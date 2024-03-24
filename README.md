@@ -16,7 +16,7 @@ Following are the waveform obtained after simulating the design in the Model-Sim
 ![sim](Img/sim1.png)
 ![sim](Img/sim2.png)
 <br>
-Here the in the more closer look of the simulation waveform, we can see that 25 has been written to the memory address 100.
+Here, in the more closer look of the simulation waveform, we can see that 25 has been written to the memory address 100.
 ***
 Dev@2024
 IOE, Pulchowk Campus
