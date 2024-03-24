@@ -1,7 +1,7 @@
 # RISC-V-Complete-Multicycle-Processor Design
 ***
 This project contains the files related to design and simulation of complete risc-v multicycle processor in system-verilog, system block diagram and test results.<br>
-Unlike single-cycle risc-v processor which use separate instruction memory and a data memory, a complete RISC-V processor uses combined memory for them. The combined memory appraoch is more realistic because we can read the instruction in one cycle and then read or write data.
+Unlike single-cycle risc-v processor which use separate instruction memory and a data memory, a complete RISC-V processor uses combined memory for them. The combined memory appraoch is more realistic because we can read the instruction in one cycle and then read or write data in a separate cycle.
 <br>
 Following is the block diagram of RISC-V complete multicycle processor. Here we can see the building block of the processor like control unit, register file unit, memory unit, data path and so on.
 ![Complete RISC-V](Img/Complete%20Multicycle%20processor.png)<br>
